@@ -1,0 +1,14 @@
+# Streamlit Community Cloud: select Python 3.11 in Advanced settings.
+# Dashboard and Excel data processing
+streamlit>=1.40,<2
+plotly>=5.18,<7
+numpy>=1.26,<2
+pandas>=2.2,<3
+openpyxl>=3.1.2,<4
+
+# Optional scorer-substitution and SHAP experiments included in this app
+scikit-learn>=1.4,<1.7
+xgboost>=2.0,<3.0
+shap>=0.47,<0.48
+matplotlib>=3.8,<3.11
+scipy>=1.16,<1.17
